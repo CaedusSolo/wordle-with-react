@@ -18,11 +18,11 @@ body {
 #root {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
   min-height: 100vh;
   min-width: 100vw;
-  padding: 0 1em 0.5em 1em;
+  padding: 0.15em 1em 0.5em 1em;
 }
 
 nav {
@@ -37,21 +37,40 @@ nav > h2 {
 
 .board {
   display: flex;
-  gap: 1em;
 }
 
 .board .row {
   display: flex;
   flex-direction: column;
-  gap: 1em;
 }
 
 .board .row > * {
-  border: 1px solid white;
-  padding: 0.5em;
-  margin: 0.5em;
+  border: 0.5px solid white;
+  padding: 0.75em;
 }
 
 .letter {
   font-weight: 800;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.line1,
+.line2,
+.line3 {
+  display: flex;
+}
+
+.key {
+  background-color: azure;
+  color: black;
+  padding: 0.5em;
+  margin: 0.1em;
+  border-radius: 5px;
+  font-size: 1.25rem;
 }
