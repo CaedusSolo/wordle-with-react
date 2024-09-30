@@ -6,7 +6,7 @@ function Letter(props) {
   const letter = board[props.attemptValue][props.letterPosition]
   
   return (
-    <h3>A</h3>
+    <h3>{letter}</h3>
   )
 }
 

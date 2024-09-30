@@ -9,10 +9,12 @@ export const AppContext = createContext();
 
 function App() {
   const [board, setBoard] = useState(defaultBoard);
+  const [currentAttempt, setCurrentAttempt] = useState({attempt: 0, letterPosition: 0})
+
   return (
     <>
       <Navbar />
-      <AppContext.Provider value={{ board, setBoard }}>
+      <AppContext.Provider value={{ board, setBoard, currentAttempt, setCurrentAttempt }}>
         <Board />
         <Keyboard />
       </AppContext.Provider>

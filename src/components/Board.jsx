@@ -4,7 +4,6 @@ import Letter from "./Letter"
 
 function Board() {
   
-
   return (
     <div className='board'>
 
@@ -38,6 +37,14 @@ function Board() {
           <Letter letterPosition={2} attemptValue={3} />
           <Letter letterPosition={3} attemptValue={3} />
           <Letter letterPosition={4} attemptValue={3} />
+        </div>
+
+        <div className="row">
+          <Letter letterPosition={0} attemptValue={4} />
+          <Letter letterPosition={1} attemptValue={4} />
+          <Letter letterPosition={2} attemptValue={4} />
+          <Letter letterPosition={3} attemptValue={4} />
+          <Letter letterPosition={4} attemptValue={4} />
         </div>
 
         <div className="row">

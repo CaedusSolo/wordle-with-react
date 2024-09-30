@@ -22,9 +22,12 @@ function Keyboard() {
         </div>
 
         <div className='line3'>
+          <Key keyValue="ENTER" isBigKey={true} />
         {keys3.map(key => {
             return <Key keyValue={key} />
           })}
+          <Key keyValue="DELETE" isBigKey={true} />
+
         </div>
         
     </div>
