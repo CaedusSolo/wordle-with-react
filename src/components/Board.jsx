@@ -48,11 +48,11 @@ function Board() {
         </div>
 
         <div className="row">
-          <Letter letterPosition={0} attemptValue={4} />
-          <Letter letterPosition={1} attemptValue={4} />
-          <Letter letterPosition={2} attemptValue={4} />
-          <Letter letterPosition={3} attemptValue={4} />
-          <Letter letterPosition={4} attemptValue={4} />
+          <Letter letterPosition={0} attemptValue={5} />
+          <Letter letterPosition={1} attemptValue={5} />
+          <Letter letterPosition={2} attemptValue={5} />
+          <Letter letterPosition={3} attemptValue={5} />
+          <Letter letterPosition={4} attemptValue={5} />
         </div>
         
     </div>
